@@ -12,9 +12,9 @@ SwiftyFeedback is a lightweight pure-Swift library based on the [CTFeedback](htt
 
 SwiftyFeedback makes it easy to add a simple feedback template to any of your apps.
 
-![](Screenshots/screenshot1.png)
-![](Screenshots/screenshot2.png)
-![](Screenshots/screenshot3.png)
+![](Screenshots/screenshot1.PNG)
+![](Screenshots/screenshot2.PNG)
+![](Screenshots/screenshot3.PNG)
 
 ## Contents
 
