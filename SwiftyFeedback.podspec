@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 SwiftyFeedback makes it easy to add a contact screen to any of your apps. This allows users to contact you through email, all in a lightweight framework.
                             DESC
   s.homepage              = "https://github.com/juanpablofernandez/SwiftyFeedback"
-  s.license               = { :type => 'MIT', :file => 'LICENSE' }
+  s.license               = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author                = "Juan Pablo Fernandez"
   s.social_media_url      = "https://github.com/juanpablofernandez"
   s.ios.deployment_target = '9.0'
