@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                  = "SwiftyFeedback"
-  s.version               = "1.0.0"
+  s.version               = "1.0.1"
   s.summary               = "A lightweight framework that allows users to contact developers."
   s.description           = <<-DESC
 SwiftyFeedback makes it easy to add a contact screen to any of your apps. This allows users to contact you through email, all in a lightweight framework.
