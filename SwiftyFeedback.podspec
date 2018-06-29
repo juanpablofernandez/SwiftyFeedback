@@ -13,6 +13,6 @@ SwiftyFeedback makes it easy to add a contact screen to any of your apps. This a
   s.ios.deployment_target = '9.0'
   s.source                = { :git => "https://github.com/juanpablofernandez/SwiftyFeedback.git", :tag => "#{s.version}" }
   s.source_files          = "SwiftyFeedback", "SwiftyFeedback/**/*.{swift}"
-  s.swift_version = '4.0'
+  s.swift_version         = '4.0'
 
 end

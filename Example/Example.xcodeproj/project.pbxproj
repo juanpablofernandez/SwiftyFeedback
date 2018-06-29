@@ -12,8 +12,6 @@
 		69E23BFD20E6E0F100BD3AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E23BFB20E6E0F100BD3AAE /* Main.storyboard */; };
 		69E23BFF20E6E0F200BD3AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E23BFE20E6E0F200BD3AAE /* Assets.xcassets */; };
 		69E23C0220E6E0F200BD3AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69E23C0020E6E0F200BD3AAE /* LaunchScreen.storyboard */; };
-		69E23C1420E6E16F00BD3AAE /* SwiftyFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E23C1320E6E16F00BD3AAE /* SwiftyFeedback.framework */; };
-		69E23C1520E6E16F00BD3AAE /* SwiftyFeedback.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 69E23C1320E6E16F00BD3AAE /* SwiftyFeedback.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				69E23C1520E6E16F00BD3AAE /* SwiftyFeedback.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,7 +35,6 @@
 		69E23BFE20E6E0F200BD3AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69E23C0120E6E0F200BD3AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69E23C0320E6E0F200BD3AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69E23C1320E6E16F00BD3AAE /* SwiftyFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyFeedback.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/SwiftyFeedback-ghyokrktpammkfbipgflcohxpaii/Build/Products/Debug-iphoneos/SwiftyFeedback.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E23C1420E6E16F00BD3AAE /* SwiftyFeedback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +51,6 @@
 		69E23BEB20E6E0F100BD3AAE = {
 			isa = PBXGroup;
 			children = (
-				69E23C1320E6E16F00BD3AAE /* SwiftyFeedback.framework */,
 				69E23BF620E6E0F100BD3AAE /* Example */,
 				69E23BF520E6E0F100BD3AAE /* Products */,
 			);
