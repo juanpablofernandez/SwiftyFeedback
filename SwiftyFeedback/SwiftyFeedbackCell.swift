@@ -1,5 +1,5 @@
 //
-//  FeedbackTableViewCell.swift
+//  SwiftyFeedbackCell.swift
 //  SwiftyFeedback
 //
 //  Created by Juan Pablo on 6/29/18.

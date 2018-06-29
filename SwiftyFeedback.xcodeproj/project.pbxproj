@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		693DBCF220E6DE6E00202D14 /* SwiftyFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 693DBCF020E6DE6E00202D14 /* SwiftyFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69E23BE220E6E09600BD3AAE /* EmailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCF820E6DE8B00202D14 /* EmailModel.swift */; };
+		69E23BE220E6E09600BD3AAE /* SwiftyFeedbackEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCF820E6DE8B00202D14 /* SwiftyFeedbackEmail.swift */; };
 		69E23BE320E6E09600BD3AAE /* SwiftyFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCFA20E6DE8C00202D14 /* SwiftyFeedback.swift */; };
-		69E23BE420E6E09600BD3AAE /* FeedbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCFB20E6DE8C00202D14 /* FeedbackController.swift */; };
-		69E23BE520E6E09600BD3AAE /* AttachmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCF920E6DE8C00202D14 /* AttachmentTableViewCell.swift */; };
-		69E23BE620E6E09600BD3AAE /* FeedbackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCFC20E6DE8C00202D14 /* FeedbackTableViewCell.swift */; };
-		69E23BE720E6E09600BD3AAE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCFD20E6DE8C00202D14 /* Extensions.swift */; };
+		69E23BE420E6E09600BD3AAE /* SwiftyFeedbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCFB20E6DE8C00202D14 /* SwiftyFeedbackController.swift */; };
+		69E23BE520E6E09600BD3AAE /* SwiftyFeedbackAttachmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCF920E6DE8C00202D14 /* SwiftyFeedbackAttachmentCell.swift */; };
+		69E23BE620E6E09600BD3AAE /* SwiftyFeedbackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCFC20E6DE8C00202D14 /* SwiftyFeedbackCell.swift */; };
+		69E23BE720E6E09600BD3AAE /* SwiftyFeedbackExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693DBCFD20E6DE8C00202D14 /* SwiftyFeedbackExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		693DBCED20E6DE6E00202D14 /* SwiftyFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		693DBCF020E6DE6E00202D14 /* SwiftyFeedback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyFeedback.h; sourceTree = "<group>"; };
 		693DBCF120E6DE6E00202D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		693DBCF820E6DE8B00202D14 /* EmailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailModel.swift; sourceTree = "<group>"; };
-		693DBCF920E6DE8C00202D14 /* AttachmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentTableViewCell.swift; sourceTree = "<group>"; };
+		693DBCF820E6DE8B00202D14 /* SwiftyFeedbackEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyFeedbackEmail.swift; sourceTree = "<group>"; };
+		693DBCF920E6DE8C00202D14 /* SwiftyFeedbackAttachmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyFeedbackAttachmentCell.swift; sourceTree = "<group>"; };
 		693DBCFA20E6DE8C00202D14 /* SwiftyFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyFeedback.swift; sourceTree = "<group>"; };
-		693DBCFB20E6DE8C00202D14 /* FeedbackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackController.swift; sourceTree = "<group>"; };
-		693DBCFC20E6DE8C00202D14 /* FeedbackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackTableViewCell.swift; sourceTree = "<group>"; };
-		693DBCFD20E6DE8C00202D14 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		693DBCFB20E6DE8C00202D14 /* SwiftyFeedbackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyFeedbackController.swift; sourceTree = "<group>"; };
+		693DBCFC20E6DE8C00202D14 /* SwiftyFeedbackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyFeedbackCell.swift; sourceTree = "<group>"; };
+		693DBCFD20E6DE8C00202D14 /* SwiftyFeedbackExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyFeedbackExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				693DBCF020E6DE6E00202D14 /* SwiftyFeedback.h */,
-				693DBCF820E6DE8B00202D14 /* EmailModel.swift */,
+				693DBCF820E6DE8B00202D14 /* SwiftyFeedbackEmail.swift */,
 				693DBCFA20E6DE8C00202D14 /* SwiftyFeedback.swift */,
-				693DBCFB20E6DE8C00202D14 /* FeedbackController.swift */,
-				693DBCF920E6DE8C00202D14 /* AttachmentTableViewCell.swift */,
-				693DBCFC20E6DE8C00202D14 /* FeedbackTableViewCell.swift */,
-				693DBCFD20E6DE8C00202D14 /* Extensions.swift */,
+				693DBCFB20E6DE8C00202D14 /* SwiftyFeedbackController.swift */,
+				693DBCF920E6DE8C00202D14 /* SwiftyFeedbackAttachmentCell.swift */,
+				693DBCFC20E6DE8C00202D14 /* SwiftyFeedbackCell.swift */,
+				693DBCFD20E6DE8C00202D14 /* SwiftyFeedbackExtensions.swift */,
 				693DBCF120E6DE6E00202D14 /* Info.plist */,
 			);
 			path = SwiftyFeedback;
@@ -148,12 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E23BE620E6E09600BD3AAE /* FeedbackTableViewCell.swift in Sources */,
-				69E23BE720E6E09600BD3AAE /* Extensions.swift in Sources */,
-				69E23BE520E6E09600BD3AAE /* AttachmentTableViewCell.swift in Sources */,
+				69E23BE620E6E09600BD3AAE /* SwiftyFeedbackCell.swift in Sources */,
+				69E23BE720E6E09600BD3AAE /* SwiftyFeedbackExtensions.swift in Sources */,
+				69E23BE520E6E09600BD3AAE /* SwiftyFeedbackAttachmentCell.swift in Sources */,
 				69E23BE320E6E09600BD3AAE /* SwiftyFeedback.swift in Sources */,
-				69E23BE220E6E09600BD3AAE /* EmailModel.swift in Sources */,
-				69E23BE420E6E09600BD3AAE /* FeedbackController.swift in Sources */,
+				69E23BE220E6E09600BD3AAE /* SwiftyFeedbackEmail.swift in Sources */,
+				69E23BE420E6E09600BD3AAE /* SwiftyFeedbackController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +292,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftyFeedback/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +318,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SwiftyFeedback/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
