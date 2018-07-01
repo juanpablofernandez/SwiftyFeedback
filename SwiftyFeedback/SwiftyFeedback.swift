@@ -16,9 +16,10 @@ public class SwiftyFeedback {
     public var title: String = "Contact Us"
     public var sendButtonTitle = "Send"
     public var cancelButtonTitle = "Cancel"
+    public var navigationController = UINavigationController()
     
     public func present(_ sender: UIViewController) {
-        let feedbackVC = UINavigationController(rootViewController: SwiftyFeedbackViewController())
-        sender.present(feedbackVC, animated: true, completion: nil)
+        navigationController.viewControllers = [SwiftyFeedbackViewController()]
+        sender.present(navigationController, animated: true, completion: nil)
     }
 }
